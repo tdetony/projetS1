@@ -1,0 +1,49 @@
+/*------------------Image de fond------------------*/
+body header {
+    background-image: url("../../img/fond-article-1.png");
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+/*------------------Fond blanc------------------*/
+.article1{
+    margin-top:90vh;
+    background:white;
+    border-radius:70px;
+
+}
+
+/*------------------Responsive------------------*/
+img{
+    max-width:100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+/*------------------Logo header------------------*/
+.haut>img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8%;
+    left: 30%;
+    height: auto;
+    width: 40%;
+}
+
+
+.bas{
+    margin-top:120%;
+}
+
+/*------------------Flèche vers le bas------------------*/
+

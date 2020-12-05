@@ -1,3 +1,55 @@
-body {
-    background:lightgray;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,900&display=swap');
+
+/*font-family: 'Poppins',sans-serif;
+font-style: italic;
+font-weight: 200;
+
+font-family: 'Poppins',sans-serif;
+font-style: italic;
+font-weight: 900;
+
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;*/
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/*------------------Titres .bas------------------*/
+.bas p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:white;
+    font-size:2.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: -1px;
+    margin-top:-3rem;
+    margin-bottom:-3rem;
+
+}
+
+.bas h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color:white;
+    font-size:6rem;
+    letter-spacing: -2px;
+}
+
+.bas h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color:white;
+    font-size:4rem;
+    letter-spacing: -2px;
+    margin-top:-7rem;
+
 }
