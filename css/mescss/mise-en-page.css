@@ -14,7 +14,7 @@ body header {
 .article1{
     margin-top:90vh;
     background:white;
-    border-radius:70px;
+    border-radius:90px;
 
 }
 
@@ -60,4 +60,15 @@ body{
 /*------------------Début du premier texte décalé du haut------------------*/
 main.article1{
 
+}
+
+/*------------------Marges de l'article------------------*/
+.bas {
+    margin-left: 2.5rem;
+}
+
+article#Un\ changement\ drastique,article#Un\ film\ d’animation\ reconnu,article#Un\ monde\ incroyablement\ terrifiant…,
+article#Une\ vie\ atypique {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }

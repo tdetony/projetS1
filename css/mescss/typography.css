@@ -62,7 +62,7 @@ body{
 }
 
 /*------------------H1 de l'article------------------*/
-main.article1>h2{
+main.article1>.article1>h2{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -70,3 +70,4 @@ main.article1>h2{
     letter-spacing: -2px;
     line-height:4rem ;
 }
+
