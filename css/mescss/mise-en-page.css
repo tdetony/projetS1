@@ -67,8 +67,7 @@ main.article1{
     margin-left: 2.5rem;
 }
 
-article#Un\ changement\ drastique,article#Un\ film\ d’animation\ reconnu,article#Un\ monde\ incroyablement\ terrifiant…,
-article#Une\ vie\ atypique ,.article1>h2{
+p ,.article1>h2,h3{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
@@ -76,3 +75,16 @@ article#Une\ vie\ atypique ,.article1>h2{
 .article1>h2{
     padding-top:15rem;
 }
+
+.bas>p{
+    margin-left:0;
+}
+
+/*------------------Redimension 1ère image------------------*/
+article#Un\ film\ d’animation\ reconnu img{
+    width:100rem;
+    margin-top:3rem;
+    margin-bottom:-3rem;
+}
+
+

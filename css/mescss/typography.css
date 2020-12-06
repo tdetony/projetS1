@@ -82,3 +82,11 @@ h3{
     line-height:5rem ;
 }
 
+/*------------------Sous-titres des images------------------*/
+.soustitre {
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size:0.9rem;
+    color:#CBA18F;
+}
