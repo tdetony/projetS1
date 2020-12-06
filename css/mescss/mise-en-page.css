@@ -68,7 +68,11 @@ main.article1{
 }
 
 article#Un\ changement\ drastique,article#Un\ film\ d’animation\ reconnu,article#Un\ monde\ incroyablement\ terrifiant…,
-article#Une\ vie\ atypique {
+article#Une\ vie\ atypique ,.article1>h2{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+}
+
+.article1>h2{
+    padding-top:15rem;
 }

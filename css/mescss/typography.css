@@ -47,7 +47,7 @@ body{
     font-weight: 900;
     color:white;
     font-size:6rem;
-    letter-spacing: -2px;
+    letter-spacing: -4px;
 }
 
 .bas h2{
@@ -56,18 +56,29 @@ body{
     font-weight: 900;
     color:white;
     font-size:4rem;
-    letter-spacing: -2px;
+    letter-spacing: -3px;
     margin-top:-7rem;
 
 }
 
 /*------------------H1 de l'article------------------*/
-main.article1>.article1>h2{
+.article1>h2{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size:4rem;
     letter-spacing: -2px;
     line-height:4rem ;
+
+}
+
+/*------------------H2 de l'article------------------*/
+h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:2rem;
+    letter-spacing: -2px;
+    line-height:5rem ;
 }
 
