@@ -94,7 +94,7 @@ article#Une\ vie\ atypique{
 }
 
 /*------------------Redimension 2ème image------------------*/
-article#Une\ vie\ atypique img{
+.firstimg img{
     width:40rem;
     display:block;
     margin-left: auto;
@@ -106,4 +106,10 @@ article#Une\ vie\ atypique img{
 /*------------------Interlignage paragraphes------------------*/
 p{
     line-height: 3.4rem;
+}
+
+
+/*------------------Redimension 3ème image------------------*/
+.secondimg img {
+    margin-top:3rem;
 }
