@@ -101,5 +101,9 @@ article#Une\ vie\ atypique img{
     margin-right: auto;
     margin-top:2rem;
     margin-bottom:2rem;
+}
 
+/*------------------Interlignage paragraphes------------------*/
+p{
+    line-height: 3.4rem;
 }
