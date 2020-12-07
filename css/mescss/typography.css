@@ -83,7 +83,7 @@ h3{
 }
 
 /*------------------Sous-titres des images------------------*/
-.soustitre {
+.soustitre1 {
     font-family: 'Poppins',sans-serif;
     font-style: italic;
     font-weight: 200;
@@ -92,4 +92,22 @@ h3{
     margin-top:2.5rem;
     margin-right:0;
     margin-bottom:3rem;
+}
+
+.soustitre2 {
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size:0.9rem;
+    color:#CBA18F;
+    margin-bottom:13rem;
+}
+
+.soustitre3 {
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size:0.9rem;
+    color:#CBA18F;
+    margin-bottom:4rem;
 }

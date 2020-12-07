@@ -113,3 +113,13 @@ p{
 .secondimg img {
     margin-top:3rem;
 }
+
+/*------------------Redimension 4ème image------------------*/
+.thirdimg img {
+    margin-top:3rem;
+}
+
+/*------------------Un changement drastique margin-bottom------------------*/
+article#Un\ changement\ drastique{
+    margin-bottom:13rem;
+}
