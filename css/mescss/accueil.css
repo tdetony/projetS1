@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,900&display=swap');
+/*------------------Responsive------------------*/
+img{
+    max-width:100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+/*------------------Image de fond------------------*/
+.accueil {
+    background-image: url("../../img/fondaccueil.png");
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+/*------------------Logo header------------------*/
+.haut>img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8%;
+    left: 30%;
+    height: auto;
+    width: 40%;
+}
+
+/*------------------Mise en page------------------*/
+.titres{
+    margin-top:55%;
+    margin-bottom:40%;
+}
+
+.accueil{
+    margin:0 1.5rem;
+}
+
+/*------------------Polices------------------*/
+h1,h2,p{
+    color:white;
+
+}
+/*------------------Tagline------------------*/
+.tagline{
+    line-height:7px;
+    margin-bottom:30%;
+}
+
+.tagline h1{
+    font-size:2.3rem;
+    letter-spacing: -1px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align:center;
+}
+
+.tagline h2{
+    font-size:1.2rem;
+    letter-spacing: -1px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align:center;
+}
+
+/*------------------Intro------------------*/
+.intro{
+    line-height:1.4rem;
+}
+
+.introdeux{
+    line-height:0.3rem;
+    margin-bottom: -3rem;
+}
+
+.intro,.introdeux{
+    font-size:0.95rem;
+    letter-spacing: -0.5px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+/*------------------Tweets articles------------------*/
+.tweetarticle1 h1,.tweetarticle1 h2,.tweetarticle2 h1,.tweetarticle2 h2,.tweetarticle3 h1,.tweetarticle3 h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: -0.9px;
+    line-height: 2rem;
+    margin-bottom: -20px;
+    margin-left:7px;
+    margin-right: 7px;
+}
+
+.tweetarticle1 p,.tweetarticle2 p,.tweetarticle3 p{
+    font-size:0.95rem;
+    letter-spacing: -0.5px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-left:7px;
+    margin-right: 7px;
+}
+
+/*------------------Article 1------------------*/
+
+.tweetarticle1 {
+    margin-bottom: 40%;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    background:grey;
+}
+
+
+/*------------------Logo 1------------------*/
+.tweetarticle1 img {
+    width: 8.5rem;
+    margin-top:-2.5rem;
+    margin-left:0.5rem;
+    float:left;
+}
+
+/*------------------Voir 1------------------*/
+.voir1{
+    padding-right:4.5rem;
+    float:right;
+    font-size:10rem;
+}

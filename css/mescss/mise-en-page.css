@@ -89,7 +89,7 @@ article#Un\ film\ d’animation\ reconnu img{
 
 
 /*------------------H3 margin-top------------------*/
-article#Une\ vie\ atypique{
+article#Une\ vie\ atypique, article#Un\ monde\ incroyablement\ terrifiant…{
     margin-top:13rem;
 }
 
@@ -119,7 +119,29 @@ p{
     margin-top:3rem;
 }
 
-/*------------------Un changement drastique margin-bottom------------------*/
-article#Un\ changement\ drastique{
-    margin-bottom:13rem;
+/*------------------Redimension 5ème image------------------*/
+.fourthimg {
+    margin-top:3rem;
+
+}
+
+/*------------------Bande annonce------------------*/
+.bandeannoncegallerie h2{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:4rem;
+    letter-spacing: -2px;
+    line-height:4rem ;
+    margin-top:18rem;
+    text-align: center;
+}
+
+.bandeannoncegallerie video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    border-radius:2rem;
 }
