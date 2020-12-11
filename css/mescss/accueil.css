@@ -305,12 +305,15 @@ footer{
 
 
 .logos {
-    width:5%;
     margin-left:2rem;
-    margin-top: 2rem;
-    display:flex;
+    margin-top: 4rem;
+    display:inline;
+
 }
 
 .logos img{
+    width:5%;
     margin-right:1rem;
+    margin-top:2rem;
+
 }
