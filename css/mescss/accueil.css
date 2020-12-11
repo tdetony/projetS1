@@ -130,8 +130,9 @@ h1,h2,p{
 
     border: 1px solid #FFFFFF41;
     border-radius: 10px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px) brightness(115%) ;
     -webkit-backdrop-filter: blur(20px);
+
 
 
 }
@@ -203,12 +204,14 @@ h2{
     justify-content:center;
     align-items: center;
 
+
 }
 
 .wallevoir>a,.wallevoirdeux>a,.wallevoirtrois>a{
     text-decoration: none;
 
 }
+
 
 
 .wallevoir{
@@ -248,4 +251,66 @@ h2{
     font-size:30px;
     margin-top:1rem;
     margin-bottom:-16px;
+}
+
+
+/*------------------Footer------------------*/
+footer{
+    top: 1356px;
+    left: 0;
+    width: auto;
+    height: 350px;
+
+    /* UI Properties */
+
+
+    margin-top:13rem;
+    border: 1px solid #FFFFFF41;
+    backdrop-filter: blur(20px) brightness(75%) ;
+
+
+
+}
+
+.publicitelogo{
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center center;
+    width:30%;
+    overflow:hidden;
+    margin-top:2rem;
+    margin-left:2rem;
+}
+
+.informations{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height:3px;
+
+    margin:2rem 1.7rem;
+}
+
+
+.mentionslegales p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin:0 1.7rem;
+    color:#D1D0AA;
+    line-height:22px;
+
+}
+
+
+.logos {
+    width:5%;
+    margin-left:2rem;
+    margin-top: 2rem;
+    display:flex;
+}
+
+.logos img{
+    margin-right:1rem;
 }
