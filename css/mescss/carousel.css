@@ -20,7 +20,7 @@ ul.carousel-items{
 }
 
 li.carousel-item{
-    flex:1 0 220px;
+    flex:1 0 70%;
     margin-right:20px;
     scroll-snap-align:center;
 }
