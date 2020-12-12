@@ -12,10 +12,10 @@ body header {
 
 /*------------------Fond blanc------------------*/
 .article1{
-    margin-top:90vh;
+    margin-top:102vh;
     background:white;
-    border-radius:90px;
-
+    border-radius:45px;
+    width:26.8rem;
 }
 
 /*------------------Responsive------------------*/
@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 8%;
+    top: 6%;
     left: 30%;
     height: auto;
     width: 40%;
@@ -51,25 +51,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 92%;
-    left: 42%;
+    top: 105%;
+    left: 49%;
     height: auto;
-    width: 10%;
+    width:3rem;
 }
 
 /*------------------Début du premier texte décalé du haut------------------*/
-main.article1{
-
+.logowalle {
+    width:45%;
+    position:absolute;
+    bottom:7rem;
 }
-
 /*------------------Marges de l'article------------------*/
 .bas {
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
 }
 
 p ,.article1>h2,h3{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .article1>h2{
@@ -82,7 +83,7 @@ p ,.article1>h2,h3{
 
 /*------------------Redimension 1ère image------------------*/
 article#Un\ film\ d’animation\ reconnu img{
-    width:100rem;
+    width:auto;
     margin-top:3rem;
     margin-bottom:-3rem;
 }
@@ -95,7 +96,7 @@ article#Une\ vie\ atypique, article#Un\ monde\ incroyablement\ terrifiant…{
 
 /*------------------Redimension 2ème image------------------*/
 .firstimg img{
-    width:40rem;
+    width:auto;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -135,6 +136,7 @@ p{
     line-height:4rem ;
     margin-top:18rem;
     text-align: center;
+
 }
 
 .bandeannoncegallerie video{
@@ -144,4 +146,7 @@ p{
     margin-top:2rem;
     margin-bottom:2rem;
     border-radius:2rem;
+    width:40%;
+
 }
+
