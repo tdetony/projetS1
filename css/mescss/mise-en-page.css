@@ -8,14 +8,15 @@ body header {
     left:0;
     right:0;
     bottom:0;
+    width:auto;
 }
 
 /*------------------Fond blanc------------------*/
 .article1{
-    margin-top:102vh;
+    margin-top:92vh;
     background:white;
     border-radius:45px;
-    width:26.8rem;
+    width:23.8rem;
 }
 
 /*------------------Responsive------------------*/
@@ -51,10 +52,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 105%;
-    left: 49%;
+    top: 95%;
+    left: 45%;
     height: auto;
-    width:3rem;
+    width:2.4rem;
 }
 
 /*------------------Début du premier texte décalé du haut------------------*/
@@ -74,7 +75,7 @@ p ,.article1>h2,h3{
 }
 
 .article1>h2{
-    padding-top:15rem;
+    padding-top:8rem;
 }
 
 .bas>p{
@@ -84,19 +85,19 @@ p ,.article1>h2,h3{
 /*------------------Redimension 1ère image------------------*/
 article#Un\ film\ d’animation\ reconnu img{
     width:auto;
-    margin-top:3rem;
-    margin-bottom:-3rem;
+    margin-top:1rem;
+    margin-bottom:-2rem;
 }
 
 
 /*------------------H3 margin-top------------------*/
 article#Une\ vie\ atypique, article#Un\ monde\ incroyablement\ terrifiant…{
-    margin-top:13rem;
+    margin-top:8rem;
 }
 
 /*------------------Redimension 2ème image------------------*/
 .firstimg img{
-    width:auto;
+    width:70%;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -106,23 +107,25 @@ article#Une\ vie\ atypique, article#Un\ monde\ incroyablement\ terrifiant…{
 
 /*------------------Interlignage paragraphes------------------*/
 p{
-    line-height: 3.4rem;
+    line-height: 1.7rem;
+    font-size:1.1rem;
+    letter-spacing: -0.2px;
 }
 
 
 /*------------------Redimension 3ème image------------------*/
 .secondimg img {
-    margin-top:3rem;
+    margin-top:1rem;
 }
 
 /*------------------Redimension 4ème image------------------*/
 .thirdimg img {
-    margin-top:3rem;
+    margin-top:1rem;
 }
 
 /*------------------Redimension 5ème image------------------*/
 .fourthimg {
-    margin-top:3rem;
+    margin-top:1rem;
 
 }
 
@@ -131,11 +134,12 @@ p{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size:4rem;
+    font-size:1.75rem;
     letter-spacing: -2px;
     line-height:4rem ;
-    margin-top:18rem;
+    margin-top:9rem;
     text-align: center;
+    margin-bottom:-0.3rem;
 
 }
 
@@ -143,10 +147,9 @@ p{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:2rem;
     margin-bottom:2rem;
-    border-radius:2rem;
-    width:40%;
+    border-radius:1rem;
+    width:90%;
 
 }
 
