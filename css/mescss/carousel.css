@@ -3,12 +3,14 @@
     height:auto;
 }
 .carousel h2{
-    margin:0 20px;
+    margin-bottom:-1rem;
+
 }
 
 .carousel{
     background-color: #FFFFFF;
     padding: 20px 0;
+    margin-top:-5rem;
 }
 
 ul.carousel-items{
@@ -27,7 +29,7 @@ li.carousel-item{
 
 
 ::-webkit-scrollbar{
-    height:2px;
+    height:5px;
 }
 
 ::-webkit-scrollbar-track{
@@ -35,5 +37,9 @@ li.carousel-item{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: red;
+    background-color: #EDE869;
+}
+
+.carousel-item img{
+    border-radius:1rem;
 }
