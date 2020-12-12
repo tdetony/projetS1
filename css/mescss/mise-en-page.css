@@ -194,7 +194,7 @@ p{
 .tweetarticle2 {
 
     top: 518px;
-    margin-left: 20px;
+    margin-left: 23px;
     width: 340px;
     height:270px;
 
@@ -241,5 +241,64 @@ p{
 
 .tweetarticle2 p{
     line-height: 1.4rem;
+
+}
+
+
+/*------------------Footer------------------*/
+footer{
+    background-color: #A2A2A2;
+}
+
+.publicitelogo{
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center center;
+    width:30%;
+    overflow:hidden;
+    margin-top:2rem;
+    margin-left:2rem;
+
+}
+
+.informations{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.5rem;
+    letter-spacing:0;
+    margin:2rem 0;
+    color:white;
+}
+
+.informations p{
+    line-height:4px;
+}
+
+.mentionslegales p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin:0 1.7rem;
+    color:#D1D0AA;
+    font-size:1.1rem;
+    letter-spacing:0;
+    line-height:22px;
+
+}
+
+.logos {
+    margin-left:2rem;
+    margin-top: 4rem;
+    display:inline;
+
+}
+
+.logos img{
+    width:5%;
+    margin-right:1rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
 
 }
