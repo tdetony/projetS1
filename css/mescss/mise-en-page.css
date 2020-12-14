@@ -280,7 +280,7 @@ p{
      left:1rem;
  }
 
-.tweetarticle2,.tweetarticle3,.tweetarticle4 {
+.tweetarticle2 {
 
     top: 518px;
     margin-left: 23px;
@@ -294,7 +294,34 @@ p{
     margin-top:6rem;
 
 }
+.tweetarticle3 {
 
+    top: 518px;
+    margin-left: 23px;
+    width: 340px;
+    height:285px;
+
+    border-radius: 20px;
+    background-color: #A2A2A2;
+    opacity:100%;
+    margin-bottom:8rem;
+    margin-top:6rem;
+
+}
+.tweetarticle4 {
+
+    top: 518px;
+    margin-left: 23px;
+    width: 344px;
+    height:270px;
+
+    border-radius: 20px;
+    background-color: #A2A2A2;
+    opacity:100%;
+    margin-bottom:8rem;
+    margin-top:6rem;
+
+}
 .tweetarticle2 h2,.tweetarticle2 h1,.tweetarticle2 p,.tweetarticle3 h2,.tweetarticle3 h1,.tweetarticle3 p,.tweetarticle4 h2,.tweetarticle4 h1,.tweetarticle4 p{
     color:white;
 
@@ -364,7 +391,7 @@ p{
 
 }
 /*------------------Impensée energétique------------------*/
-.impenergy,.calculcomplexe.maildiv{
+.impenergy,.calculcomplexe,.maildiv{
     float:left;
     margin-bottom:-2.5rem;
     margin-top:2rem
@@ -372,7 +399,7 @@ p{
 }
 .maildiv{
     margin-top:6rem;
-    margin-bottom: -4rem;
+    margin-bottom: -3rem;
 
 }
 .energy, .calcul{
