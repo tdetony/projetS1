@@ -19,6 +19,7 @@ ul.carousel-items{
     display:flex;
     overflow-x:scroll;
     scroll-snap-type:x mandatory;
+    position:relative;
 }
 
 li.carousel-item{
@@ -38,6 +39,7 @@ li.carousel-item{
 
 ::-webkit-scrollbar-thumb{
     background-color: #EDE869;
+    position:relative;
 }
 
 .carousel-item img{

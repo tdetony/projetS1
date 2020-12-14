@@ -1,7 +1,6 @@
 /*------------------Image de fond------------------*/
 
-body header {
-    background-image: url("../../img/fond-article-1.png");
+.header1,.header2,.header3 {
     background-size: cover;
     z-index: -1;
     position: fixed;
@@ -11,6 +10,16 @@ body header {
     bottom:0;
     width:auto;
 }
+.header1 {
+    background-image: url("../../img/fond-article-1.png");
+}
+.header2 {
+     background-image: url("../../img/fond-article-2.png");
+ }
+.header3 {
+    background-image: url("../../img/fond-article-3.png");
+}
+
 
 /*------------------Fond blanc------------------*/
 .article1{
@@ -43,8 +52,8 @@ body{
 }
 
 
-.bas{
-    margin-top:120%;
+.bas,.bas2,.bas3 {
+    margin-top:100%;
 }
 
 /*------------------Flèche vers le bas------------------*/
@@ -60,14 +69,27 @@ body{
     margin-left:10.5rem;
 }
 
-/*------------------Début du premier texte décalé du haut------------------*/
+/*------------------logo du début------------------*/
 .logowalle {
     width:45%;
-    position:absolute;
-    bottom:7rem;
+    position:relative;
+    bottom:7.3rem;
 }
+
+.logocellphone{
+    width:25%;
+    position:relative;
+    bottom:4rem;
+}
+
+.logosolutions{
+    width:20%;
+    position:relative;
+    bottom:4rem;
+}
+
 /*------------------Marges de l'article------------------*/
-.bas {
+.bas,.bas2,.bas3 {
     margin-left: 1.5rem;
 }
 
@@ -80,12 +102,10 @@ p ,.article1>h2,h3{
     padding-top:2rem;
 }
 
-.bas>p{
-    margin-left:0;
-}
+
 
 /*------------------Redimension 1ère image------------------*/
-article#Un\ film\ d’animation\ reconnu img{
+article#Un\ film\ d’animation\ reconnu img,article#Un\ changement\ drastique{
     width:auto;
     margin-top:1rem;
     margin-bottom:-2rem;
@@ -107,6 +127,14 @@ article#Une\ vie\ atypique, article#Un\ monde\ incroyablement\ terrifiant…{
     margin-bottom:2rem;
 }
 
+.firstimg video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2rem;
+    border-radius:1rem;
+    width:90%;
+}
 /*------------------Interlignage paragraphes------------------*/
 p{
     line-height: 1.7rem;
@@ -120,6 +148,40 @@ p{
     margin-top:1rem;
 }
 
+.cinquante{
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    border-radius:1rem;
+    width:40%;
+
+}
+
+.hot{
+    position:relative;
+    display:block;
+    margin-left: 7rem;
+    margin-right: auto;
+    margin-bottom:5rem;
+    top:2rem;
+    border-radius:1rem;
+    width:30%;
+
+}
+
+.earth{
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5rem;
+    top:2rem;
+    border-radius:1rem;
+    width:30%;
+}
 /*------------------Redimension 4ème image------------------*/
 .thirdimg img {
     margin-top:1rem;
@@ -156,7 +218,7 @@ p{
 }
 
 /*--------------Tweet bas de page-------------*/
-.wallevoirdeux{
+.wallevoirdeux,.wallevoirtrois,.wallevoirquatre{
     display:flex;
     align-items:center;
     justify-content: space-evenly;
@@ -186,14 +248,39 @@ p{
 
 }
 
+.voir3,.voir4{
+    width: 133px;
+    height: 73px;
+    border: 1px solid #FFFFFF41;
+    border-radius: 9px;
+
+    letter-spacing: -1px;
+    font-size:1.3rem;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
 /*------------------Logo 2------------------*/
-.tweetarticle2 img {
+.tweetarticle2 img{
     width: 25%;
     margin-left: 0.5rem;
     float: left;
 }
+.tweetarticle3 img {
+    width: 18%;
+    position:relative;
+    top:-4.5rem;
+    left:1rem;
+}
+.tweetarticle4 img {
+     width: 18%;
+     position:relative;
+     left:1rem;
+ }
 
-.tweetarticle2 {
+.tweetarticle2,.tweetarticle3,.tweetarticle4 {
 
     top: 518px;
     margin-left: 23px;
@@ -203,15 +290,16 @@ p{
     border-radius: 20px;
     background-color: #A2A2A2;
     opacity:100%;
-    margin-bottom:13rem;
+    margin-bottom:8rem;
+    margin-top:6rem;
 
 }
 
-.tweetarticle2 h2,.tweetarticle2 h1,.tweetarticle2 p{
+.tweetarticle2 h2,.tweetarticle2 h1,.tweetarticle2 p,.tweetarticle3 h2,.tweetarticle3 h1,.tweetarticle3 p,.tweetarticle4 h2,.tweetarticle4 h1,.tweetarticle4 p{
     color:white;
 
 }
-.tweetarticle2 h1,.tweetarticle2 h2{
+.tweetarticle2 h1,.tweetarticle2 h2,.tweetarticle3 h1,.tweetarticle3 h2,.tweetarticle4 h1,.tweetarticle4 h2{
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 900;
@@ -226,6 +314,17 @@ p{
     margin-right: 7px;
     margin-top:-1.5rem;
     margin-bottom: -1rem;
+
+}
+
+.tweetarticle3 h1,.tweetarticle4 h1{
+    font-size: 2.3rem;
+    letter-spacing: -0.7px;
+    line-height: 3.4rem;
+    position:relative;
+    top:-2.5rem;
+    left:1.5rem;
+    color:#EDE869;
 }
 
 .tweetarticle2 h2{
@@ -237,15 +336,57 @@ p{
     margin-top:7rem;
 
     padding-top:0.6rem;
-
 }
-
+.tweetarticle3 h2{
+    font-size: 1.6rem;
+    letter-spacing: -0.9px;
+    line-height: 3.4rem;
+    position:relative;
+    left:1.5rem;
+    top:0.5rem;
+}
+.tweetarticle4 h2{
+    font-size: 2.3rem;
+    letter-spacing: -0.9px;
+    position:relative;
+    left:1.5rem;
+    top:1.5rem;
+}
 
 .tweetarticle2 p{
     line-height: 1.4rem;
-
 }
 
+.tweetarticle3 p{
+    line-height: 1.4rem;
+    position:relative;
+    top:-4rem;
+
+}
+/*------------------Impensée energétique------------------*/
+.impenergy,.calculcomplexe.maildiv{
+    float:left;
+    margin-bottom:-2.5rem;
+    margin-top:2rem
+
+}
+.maildiv{
+    margin-top:6rem;
+    margin-bottom: -4rem;
+
+}
+.energy, .calcul{
+    width:10%;
+    position:relative;
+    left:18.5rem;
+    bottom:3.8rem;
+}
+.mail{
+     width:10%;
+     position:relative;
+     left:14.5rem;
+     bottom:3.8rem;
+ }
 
 /*------------------Footer------------------*/
 footer{
@@ -304,3 +445,5 @@ footer{
     margin-bottom:2rem;
 
 }
+
+

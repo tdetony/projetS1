@@ -91,51 +91,23 @@ h1,h2,p{
 
 }
 
-/*------------------Tweets articles------------------*/
-.tweetarticle1 h1,.tweetarticle1 h2,.tweetarticle2 h1,.tweetarticle2 h2,.tweetarticle3 h1,.tweetarticle3 h2{
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    color: white;
-    font-size: 2.6rem;
-    letter-spacing: -0.9px;
-    line-height: 3.4rem;
-    margin-bottom: -20px;
-    margin-left:7px;
-    margin-right: 7px;
-}
-
-.tweetarticle1>p:first-of-type ,.tweetarticle2>p:first-of-type,.tweetarticle3>p:first-of-type{
-    font-size:1.5rem;
-    letter-spacing:-1px;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    margin-left:7px;
-    margin-right: 7px;
-    margin-top:2rem;
-}
-
 /*------------------Articles------------------*/
 
-.tweetarticle1,.tweetarticle2,.tweetarticle3 {
+.tweetarticle1{
 
-    top: 518px;
-    left: 25px;
-    width: 325px;
+    height:108px;
+    width: 327px;
 
     border: 1px solid #FFFFFF41;
     border-radius: 10px;
     backdrop-filter: blur(20px) brightness(115%) ;
-    -webkit-backdrop-filter: blur(20px);
-
+    margin-top:5rem;
+    background-position: center;
+    margin-bottom:-2rem;
 
 
 }
-.tweetarticle1{
-    margin-top:50rem;
 
-}
 h2{
     margin-top:0.9rem;
 }
@@ -144,30 +116,17 @@ h2{
 
 /*------------------Logo 1------------------*/
 .tweetarticle1 img {
-    width: 12.5rem;
-    margin-left:0.5rem;
-    float:left;
-}
-
-/*------------------Logo 2------------------*/
-.tweetarticle2 img {
-    width: 25%;
-    margin-left: 0.5rem;
-    float: left;
-}
-/*------------------Logo 3------------------*/
-.tweetarticle3 img {
-    width: 22%;
-    margin-left: 4.5rem;
-    float: left;
-    margin-right: 3.8rem;
+    width: 8rem;
+    margin-left:6rem;
+    margin-right: 2.4rem;
 
 }
+
 
 /*------------------"Voir"------------------*/
-.voir1,.voir2{
-    width: 133px;
-    height: 73px;
+.voir1{
+    width: 80px;
+    height: 33px;
     border: 1px solid #FFFFFF41;
     border-radius: 9px;
 
@@ -185,70 +144,24 @@ h2{
 
 }
 
-.voir3{
-    width: 133px;
-    height: 73px;
-    border: 1px solid #FFFFFF41;
-    border-radius: 9px;
-
-
-
+.wallevoir p{
     letter-spacing: -1px;
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size:1.7rem;
-
-    display:flex;
-    justify-content:center;
-    align-items: center;
-
-
+    margin-right: 4rem;
 }
-
-.wallevoir>a,.wallevoirdeux>a,.wallevoirtrois>a{
-    text-decoration: none;
-
-}
-
-
 
 .wallevoir{
     display:flex;
     align-items:center;
     justify-content: space-evenly;
-    margin-top:-2rem;
-    margin-bottom:-0.4rem;
-}
-
-.wallevoirdeux{
-    display:flex;
-    align-items:center;
-    justify-content: space-evenly;
-    margin-top:-1rem;
-    margin-bottom:0.4rem;
-    margin-right:-1.7rem ;
-}
-
-.wallevoirtrois{
-    display:flex;
-    align-items:center;
-    justify-content: space-evenly;
-    margin-top:-1rem;
-    margin-bottom:0.4rem;
-    flex-wrap:wrap;
     position:absolute;
-}
+    margin-right:4rem;
+    top:1.3rem;
+    right:-22px;
 
-.margin{
-    margin: 2rem 0;
-}
-
-.tweetarticle3 h1{
-    color:#EDE869;
-    font-size:30px;
-    margin-top:1rem;
-    margin-bottom:-16px;
 }
 
 /*------------------Me contacter------------------*/
@@ -326,6 +239,38 @@ h2{
     line-height:2.3;
 
 }
+
+/*------------------Autres projets------------------*/
+.autresprojets{
+    font-size:1.5rem;
+    letter-spacing: -1px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align:left;
+    margin-top:10rem;
+    position:relative;
+    margin-bottom:12rem;
+}
+
+/*------------------Interview------------------*/
+.interview{
+    width:100%;
+    border-radius:10px;
+    margin-top: 2rem;
+
+    font-size:1.5rem;
+    letter-spacing: -1px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align:left;
+    position:relative;
+}
+
+
+
+
 
 /*------------------Footer------------------*/
 footer{
