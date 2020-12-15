@@ -45,13 +45,11 @@ html {
     margin-bottom:40%;
 }
 
-
-
-/*------------------Polices------------------*/
+/*------------------Couleur des h1 h2 et p------------------*/
 h1,h2,p{
     color:white;
-
 }
+
 /*------------------Tagline------------------*/
 .tagline{
     line-height:7px;
@@ -69,7 +67,6 @@ h1,h2,p{
     left:7.5rem;
     top:14rem;
 }
-
 
 
 /*------------------Intro------------------*/
@@ -91,12 +88,12 @@ h1,h2,p{
 
 }
 
-/*------------------Articles------------------*/
+/*------------------Autres Projets Cadre flou------------------*/
 
 .tweetarticle1{
 
     height:108px;
-    width: 327px;
+    width: 331px;
 
     border: 1px solid #FFFFFF41;
     border-radius: 10px;
@@ -114,14 +111,12 @@ h2{
 
 
 
-/*------------------Logo 1------------------*/
+/*------------------Autres Projets Mise en forme des logos------------------*/
 .tweetarticle1 img {
     width: 8rem;
     margin-left:6rem;
     margin-right: 2.4rem;
-
 }
-
 
 /*------------------"Voir"------------------*/
 .voir1{
@@ -129,8 +124,6 @@ h2{
     height: 33px;
     border: 1px solid #FFFFFF41;
     border-radius: 9px;
-
-
 
     letter-spacing: -1px;
     font-family: 'Poppins',sans-serif;
@@ -161,7 +154,6 @@ h2{
     margin-right:4rem;
     top:1.3rem;
     right:-12px;
-
 }
 
 /*------------------Me contacter------------------*/
@@ -339,4 +331,10 @@ footer{
     margin-right:1rem;
     margin-top:2rem;
 
+}
+
+
+.hyperliens{
+    text-decoration: underline;
+    color:white;
 }

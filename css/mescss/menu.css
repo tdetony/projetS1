@@ -47,7 +47,7 @@
 /*--------------------Menu---------------------*/
 
 .menu{
-    backdrop-filter: blur(20px) brightness(75%) ;
+    background-color: #555555 ;
     position:fixed;
     top:0;
     left:0;
